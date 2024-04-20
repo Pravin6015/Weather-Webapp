@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Weather App
+    </title>
+    <link rel="stylesheet" href="style.css">
+
+        <body>
+            <header>
+                <h3 class="heading">Weather App</h3>
+
+            </header>
+            
+            <section class="content">
+                <div class="form1">
+                    <form>
+                        <input type="text" class="city" placeholder="Enter City">
+                        <input type="button" class="sub" value="Submit" id="searchBtn">
+                    </form>
+                </div>
+                <div class="location-not-found">
+                    <h1>Sorry, Location not found!!!</h1>
+                    <img src="404.png" alt="404 Error">
+                </div>
+                
+                <div class="location">
+
+                    <div class="weather-info">
+                        <img src="cloud.png" class="weather-img">
+                        <p class="temp">0<sup>°C</sup>
+                        </p>
+                        <p class="description">light rain</p>
+                    </div>
+                    <div class="condition">
+                        <div class="humidity">
+                            <i class="fa-solid fa-droplet"></i> 
+                            <div class="humid-value">
+                                <span >Humidity</span>
+                            <p id="humid">0%</p>
+                            </div>
+    
+                            
+                        </div>
+                        <div class="wind">
+                            <i class="fa-solid fa-wind"></i>
+                            <div class="wind-value">
+                                <span id="windspeed">Wind Speed  </span>
+                            <p id="wind-value">0 Km/H</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                
+
+            </section>
+            <script src="https://kit.fontawesome.com/19bb853123.js" crossorigin="anonymous"></script>
+            <script src="script.js"></script>
+        </body>
+    
+</head>
+</html>

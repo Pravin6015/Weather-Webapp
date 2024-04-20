@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    height: 50px;
+    background: linear-gradient(To right,yellow,aqua);
+    text-align:justify;
+}
+
+.heading{
+    font-size: 30px;
+    color: aliceblue;
+    padding: 7px 0 0 50px;
+    
+
+}   
+
+.content{
+    display: flex;
+    width: 30%;
+    height: 20vh;
+    flex-direction: column;
+    margin: 2px 0 0 550px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    align-items: center;
+
+}
+
+
+.city{
+    width: 300px;
+    height: 30px;
+
+}
+
+.sub{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.temp{
+    font-size: 50px;
+    font-weight: 600    ;
+    padding-left: 8%;
+}
+
+.weather-info{
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.condition{
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    padding-top: 50px;
+}
+
+.condition img{
+    width: 50px;
+    height: 50px;
+    gap: 5px;
+
+}
+
+
+
+.wind ,.humidity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 20px;
+    gap: 10px;
+
+    font-weight: 500;
+}
+
+.humidity{
+    margin-left: 20px;
+}
+
+.wind{
+    margin-right:20px
+}
+i{
+    font-size: 30px;
+}
+
+span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+    align-self: center;
+}
+
+.description{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.location-not-found h1{
+    font-size: 20px;
+    color: #6b6b6b;
+    margin-block-end: 15px;
+}
+.location-not-found img{
+    width: 80%;
+}
+
+.weather-img{
+    width : 50%;
+    margin-left: 20%;
+
+}
+
+.location-not-found{
+    display: none;
+    margin-top: 20%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.location{
+    display: none;
+    flex-direction: column;
+}
+
+body{
+    background-color: #6b6b6b;
+}
+
+.form1{
+    margin-top: 11%;
+}
